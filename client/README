@@ -1,0 +1,10 @@
+평범하게 gcc client.c -pthread를 통해 컴파일 해 ./a.out argument을 통해 실행하거나
+gcc에 -o 옵션을 주어 gcc -o client client.c -pthread형태로 컴파일 해 ./client argument을를 입력해 실행한다.
+아규먼트는 아이피:포트번호/닉네임 형태로 입력하는데 포트 번호와 닉네임은 생략 가능하며 생략을 하면 포트는 10001 기본 포트로 
+닉네임은 anonymous로 진행된다. -pthread 옵션은 thread 를 사용하기 때문에 컴파일에 필요하다.
+
+Just complie as gcc client.c and run as ./a.out argument or 
+complie with -o option like gcc -o client client.c and runs as ./client argument.
+There is one argument as ip:port/name Port number and name are optional.
+Then program will be run with 10001 default port, and anonymous.
+-pthread option is require for use thread.

@@ -1,0 +1,9 @@
+평범하게 gcc server.c 를 통해 컴파일 해 ./a.out argument을 통해 실행하거나 gcc에 -o 옵션을 주어
+gcc -o server server.c 형태로 컴파일 해 ./server argument를 입력해 실행한다.
+서버는 한개의 argument를 받아 실행되는데, 해당 argument는 서버로서 동작할 포트 번호이다.
+argument가 없으면 포트는 10001 기본 포트로 동작한다. 
+
+Just complie as gcc server.c and run as ./a.out argument or
+complie with -o option like gcc -o server server.c and runs as ./server argument.
+There is one argument, which mean port number. 
+If there is no argument server work with portnumber 10001
