@@ -17,7 +17,15 @@
 
 서버와 접속이 성공하면, 테트리스 화면 하나가 뜨고 스페이스바를 통해 싱글 게임을 실행하거나 Enter를 통해 다른 참가자를 기다리는 Ready 상태에 있을 수 있다. 또 다른 참가자가 서버에 접속하거나 싱글 게임 중간에 ESC를 누르면 클라이언트에서 수행하던 게임은 일시 정지한다. 일시정지 상태에서 Enter를 통해 Ready 상태로 변경하거나 스페이스바로 일시정지 상태를 풀 수 있다.
 
+### 싱글 플레이 화면 예시
+![image](https://user-images.githubusercontent.com/62214506/78421380-089c8680-7692-11ea-854a-1c722650fc35.png)
+![image](https://user-images.githubusercontent.com/62214506/78421382-0d613a80-7692-11ea-9b16-4cb81408faae.png)
+![image](https://user-images.githubusercontent.com/62214506/78421383-0e926780-7692-11ea-8d7b-983efcbfbbf2.png)
+
 모든 Client가 Ready상태가 되면 3초 Count가 출력이 되며 게임이 실행된다. 멀티 게임이 시작되면, 키를 통한 일시정지는 없다. 
+
+### 4명의 멀티 플레이 예시
+![image](https://user-images.githubusercontent.com/62214506/78421386-0f2afe00-7692-11ea-88d2-66047ccb7f93.png)
 
 ## 테트리스 조작방법
 * W : Block 회전 
