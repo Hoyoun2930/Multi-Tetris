@@ -7,9 +7,9 @@
 ## 테트리스 클라이언트
 다음과 같은 문자열을 Argument로 입력 받으며 실행된다. 
 
-'''console
+```console
 ./tetris_client Host IP address[:port][/ID]
-'''
+```
 
 * Host IP address는 dotted decimal notation(예를 들어, 1.2.3.4)을 의미한다. 
 * Port는 접속할 서버의 포트 번호이고, 생략 가능하다. 생략된 경우, 기본 포트 번호 10001을 사용한다.  
